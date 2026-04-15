@@ -20,14 +20,20 @@ A base de dados já havia sido previamente tratada nos módulos anteriores, incl
 
 - Acurácia próxima de 100% na base de treino e entre 97% e 98% na base de teste.
 
-- Matrizes de confusão com erros mínimos e pontuais.
+- Matrizes de confusão com erros mínimos e pontuais, distribuídos entre classes próximas.
 
-- Melhor desempenho em comparação ao modelo Naive Bayes.
+- Desempenho semelhante ao modelo Naive Bayes, com pequenas diferenças na distribuição dos erros.
 
-- Maior capacidade de capturar relações não lineares e interações entre variáveis.
+- A Árvore de Decisão apresentou melhor ajuste na base de treino, com possível leve ´*overfitting*.
 
-- Redução significativa de erros de classificação entre classes.
+- Naive Bayes demonstrou maior consistência entre treino e teste, indicando maior estabilidade.
+
+- Ambos os modelos mostraram alta capacidade preditiva, sendo adequados para o problema.
 
 ## ✅ Conclusão
 
-A Árvore de Decisão demonstrou ser mais adequada para o problema de classificação de score de crédito, apresentando maior precisão e melhor capacidade de ajuste aos dados. O modelo evidenciou vantagens em relação ao Naive Bayes, especialmente por não assumir independência entre as variáveis, resultando em previsões mais assertivas e robustas para apoio à tomada de decisão.
+A comparação entre a Árvore de Decisão e o modelo Naive Bayes mostrou que ambos apresentam desempenho elevado e bastante semelhante na base de teste, com acurácia próxima de 98% e poucos erros nas matrizes de confusão. As diferenças observadas concentram-se na distribuição dos erros entre as classes, sendo pontuais em ambos os modelos.
+
+A principal distinção está no comportamento durante o treinamento: a Árvore de Decisão apresentou melhor ajuste à base de treino, chegando a 100% de acurácia, o que pode indicar leve *overfitting*, enquanto o Naive Bayes demonstrou maior consistência entre treino e teste.
+
+Dessa forma, ambos os modelos se mostraram adequados para o problema, sendo a Árvore de Decisão ligeiramente superior em capacidade de ajuste, enquanto o Naive Bayes se destaca pela simplicidade e estabilidade.
